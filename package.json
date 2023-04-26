@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-mybatis-framework",
+  "version": "1.0.0",
+  "description": "mybatis 를 사용한 nodejs framework",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "HYUNGSEOBKIM",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mybatis-mapper": "^0.6.7",
+    "mysql2": "^2.3.3",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.6.1"
+  },
+  "devDependencies": {
+    "swagger-ui-express": "^4.3.0",
+    "yamljs": "^0.3.0"
+  }
+}
